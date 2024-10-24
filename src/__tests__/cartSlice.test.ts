@@ -1,9 +1,5 @@
 import { describe, test, expect } from "@jest/globals";
-import cartReducer, {
-  addToCart,
-  removeFromCart,
-  updateQuantity,
-} from "../store/cartSlice";
+import cartReducer, { addToCart } from "../store/cartSlice";
 import type { CartState } from "../types";
 
 const initialState: CartState = {
